@@ -8,7 +8,7 @@ index 9282639..d69c285 100644
  import warnings
 -from packaging import version
 -import pip
-+from setuptools._vendor.packaging import version
++from packaging import version
 +   
 +# If installed with pip we need to check its version
 +try:
